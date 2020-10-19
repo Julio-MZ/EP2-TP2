@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Modificar Usuario</title>
+		<link href="Diseño.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div id="divFormulario1">
+			<form id="formularioPrincipal" method="post" action="modificar.php">
+				<fieldset>
+					<legend><h2 id="tituloFormulario">&nbsp Modificar &nbsp</h2></legend>
+					<a href="Registro.html"><input type="button" value="Registrarse" id="botonRegistrarse"></a> &nbsp 
+					<a href="Login.html"><input type="button" value="Inicio Sesión" id="botonInicioSesion"></a>
+					<hr>
+					<br>E-mail:
+					<input type="text" name="email" id="email" required>
+					<br><br>Contraseña:
+					<input type="password" name="contrasena" id="contrasena" required>
+					<p align="center"><input type="submit" value="Buscar" id="botonBuscar"></p>
+				</fieldset>
+			</form>
+		</div>
+		
+		<div id="divFormulario2">
+			<form id="formularioSecundario">
+				<fieldset>
+					<a href="Modificar.html"><input type="button" value="Modificar" id="botonModificar"></a><br><br>
+					<a href="selectUsuario.php"><input type="button" value="Listar" id="botonListar"></a>
+				</fieldset>
+			</form>
+		</div>
+	</body>
+</html>

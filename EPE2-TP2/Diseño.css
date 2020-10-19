@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: url("Imagenes/Fondo.png");
+	background-size: cover;
+	font-family: Arial, Helvetica, Consolas;
+	margin: 0px
+}
+
+#tituloFormulario{
+	background-image: url("Imagenes/FondoTituloFormulario.png");
+	background-size: cover;
+	border: solid;
+	border-width: 2.0px;
+	border-radius: 5px
+}
+
+#divFormulario1{
+	float: left;
+	padding-left: 550px
+}
+
+#divFormulario2{
+	float: left;
+	padding-left: 10px;
+	padding-top: 40px
+}
+
+#divProducto{
+	float: left;
+	padding-left: 450px
+}
+
+#divRegistro, #divModificar, #divEliminar{
+	float: left;
+	padding-left: 450px
+}
+
+#ganancias{
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 50px
+}
+
+#gastos{
+	float: left;
+	padding-left: 120px;
+	margin-bottom: 50px
+}
+
+#gananciasVacio{
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 50px
+}
+
+#gastosVacio{
+	float: left;
+	padding-left: 260px;
+	margin-bottom: 50px
+}
+
+#opciones{
+	float: left;
+	padding-left: 410px
+}
+
+#divMenu{
+	float: left;
+	width: 200px;
+	height: 657px;
+	background-image: url("Imagenes/FondoMenu.png");
+	background-size: cover;
+	text-align: center;
+	border-right: solid
+}
+
+#divInicio{
+	float: left;
+	padding-left: 200px;
+	padding-top: 200px
+}
+
+#formularioPrincipal, #formularioProducto, #formularioRegistro, #formularioModificar, #formularioEliminar, #formularioGastos, #formularioGanancias{
+	width: 300px
+}
+
+#formularioSecundario{
+	width: 124px
+}
+
+#formularioAviso{
+	margin: auto;
+	text-align: center;
+	padding-top: 40px;
+	width: 300px
+}
+
+#formularioAvisoInicio{
+	float: left;
+	padding-left: 450px;
+	text-align: center;
+	padding-top: 40px;
+	width: 300px
+}
+
+#email, #contrasena, #nombre, #producto, #genero, #precio, #stock, #descripcion, #previsto, #real, #tabla, #id, #diferencia{
+	width: 250px
+}
+
+#idUsuario, #item{
+	width: 20px;
+	background-image: url("Imagenes/FondoID.png");
+	background-size: cover;
+	border: solid;
+	border-width: 1.5px;
+	border-radius: 5px;
+	text-align: center
+}
+
+#botonListar, #botonModificar, #botonRegistrarse, #botonInicioSesion, #botonEnviarRegistro, #botonAceptar, #botonBuscar, #botonAgregar, #botonNuevo, #botonEliminar, #botonIngresar{
+	width: 90px;
+	background-image: url("Imagenes/FondoBoton.png");
+	background-size: cover;
+	border: solid;
+	border-width: 2.0px
+}
+
+#botonIniciarSesion, #botonVolverIntentar{
+	width: 120px;
+	background-image: url("Imagenes/FondoBoton.png");
+	background-size: cover;
+	border: solid;
+	border-width: 2.0px
+}
+
+#botonProductos, #botonUtilidades, #botonContacto, #botonSalir{
+	width: 150px;
+	background-image: url("Imagenes/FondoBoton.png");
+	background-size: cover;
+	border: solid;
+	border-width: 2.0px
+}
+
+fieldset{
+	background-image: url("Imagenes/FondoFormulario.png");
+	background-size: cover;
+	border: solid;
+	border-radius: 10px
+}
+
+hr{
+	border-color: black
+}
+
+table{
+	background-image: url("Imagenes/FondoTablas.png");
+	background-size: cover;
+	border-color: black;
+	text-align: center
+}
+
+#encabezado{
+	background-image: url("Imagenes/FondoEncabezadoTabla.png");
+	background-size: cover
+}

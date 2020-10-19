@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Diseño.css" rel="stylesheet" type="text/css">
+    <title>Utilidades - Modificar</title>
+</head>
+<body>
+	<div id="divMenu">
+			<br><a href="productos.php"><button id="botonProductos"><b>Productos</b></button></a>
+			<br><br><a href="GananciasGastos.php"><button id="botonUtilidades"><b>Utilidades</b></button></a>
+			<br><br><a href=""><button id="botonContacto"><b>Contacto</b></button></a>
+			<br><br><a href="Login.html"><button id="botonSalir"><b>Salir</b></button></a>
+	</div>
+	
+    <div id="divModificar">
+        <form method="POST" action="ModificarRegistro.php" id="formularioModificar">
+            <fieldset>
+                <legend><h2 id="tituloFormulario">&nbsp Modificar &nbsp</h2></legend>
+                Ingrese ID:
+                <br><input type="text" name="id" id="id" required>
+                <br><br>Seleccione la tabla:
+                <br><select name="tabla" id="tabla">
+                    <option value="gastos" selected>Gastos</option>
+                    <option value="ganancias">Ganancias</option>
+                </select>
+                <br><br><p align="center"><input type="submit" value="Ingresar" id="botonIngresar"></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
